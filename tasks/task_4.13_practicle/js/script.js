@@ -10,10 +10,8 @@ window.addEventListener('load', function() {
 	openMenu.style.cursor = 'pointer';
 	closeMenu.style.cursor = 'pointer';
 	console.log(button, popup);
-	button.addEventListener('click', () => {popup.style.display = 'flex'});
-	closePopup.addEventListener('click', () => {popup.style.display = 'none'});
-	openMenu.addEventListener('click', () => {
-		menu.style.left = '0';
-	});
-	closeMenu.addEventListener('click', () => {menu.style.left = '-50vw'});
+	button.addEventListener('click', () => {popup.style.display = 'flex';});
+	closePopup.addEventListener('click', () => {popup.style.display = 'none';});
+	openMenu.addEventListener('click', () => {menu.style.left = '0';});
+	closeMenu.addEventListener('click', () => {menu.style.left = '-50vw';});
 })
